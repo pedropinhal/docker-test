@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuget-settings>
+  <component type="server">
+    <param key="feed.enabled">java</param>
+  </component>
+</nuget-settings>
+

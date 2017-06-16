@@ -1,0 +1,11 @@
+<root>
+  <page path="/">
+    <usage userId="1" timestamp="1485447373668" />
+  </page>
+  <page path="/overview.html">
+    <usage userId="1" timestamp="1485447372178" />
+  </page>
+  <page path="/profile.html">
+    <usage userId="1" timestamp="1485447279339" />
+  </page>
+</root>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="933af469-867f-4d3f-93a8-cf49cf08518f" type="jetbrains.git" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/10.0/project-config.xsd">
+  <name>https://github.com/pedropinhal/deploytest#refs/heads/master</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/master" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="zxx8319f1322f15d4a49bb661c2801a5d529b3f658887adbaa2ebeac2b9a3bb2a25358a211e0a6123bd775d03cbe80d301b" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="url" value="https://github.com/pedropinhal/deploytest" />
+  <param name="useAlternates" value="true" />
+  <param name="username" value="pedropinhal" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+

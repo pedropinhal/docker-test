@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="b687356a-489b-45af-a719-cbad78078412" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/10.0/project-config.xsd">
+  <name>&lt;Root project&gt;</name>
+  <description>Contains all other projects</description>
+  <parameters />
+  <project-extensions>
+    <extension id="PROJECT_EXT_1" type="OAuthProvider">
+      <parameters>
+        <param name="clientId" value="d79662216c92bef1dad9" />
+        <param name="displayName" value="GitHub.com" />
+        <param name="gitHubUrl" value="https://github.com/" />
+        <param name="providerType" value="GitHub" />
+        <param name="secure:clientSecret" value="zxxb1dc0dbf0de132b91269ab7b933f85990813f05ba0f459d541a1c8e5567c1567125c37b96c672477775d03cbe80d301b" />
+      </parameters>
+    </extension>
+  </project-extensions>
+  <cleanup>
+    <options>
+      <option name="preventDependenciesArtifactsFromCleanup" value="false" />
+    </options>
+  </cleanup>
+</project>
+
