@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+  api:
+    build:
+      context: .
+    image: aspnetcore/api:multi
+    ports:
+      - "8080:5000"
+  mail:
+    image: mailhog/mailhog
+    ports: 
+      - "8025:8025"
+      - "1025:1025"
