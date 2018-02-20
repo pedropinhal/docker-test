@@ -14,7 +14,7 @@ namespace netcoreapp3.Controllers
     public class EmailController : Controller
     {
         private int MAIL_PORT = 1025;
-        private string MAIL_HOST = "localhost";
+        private string MAIL_HOST = "mail";
 
         // GET api/email
         [HttpGet]
