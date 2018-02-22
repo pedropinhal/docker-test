@@ -28,12 +28,13 @@ namespace netcoreapp3.Controllers
         public async Task Post([FromBody]string value)
         {
             var message = new MimeMessage();
-            message.From.Add(new MailboxAddress("Api","api@api.com"));
-            message.To.Add(new MailboxAddress("","test@fake.com"));
+            message.From.Add(new MailboxAddress("Api", "api@api.com"));
+            message.To.Add(new MailboxAddress("", "test@fake.com"));
             message.Subject = "Sent from the API!";
-            message.Body = new TextPart("plain"){Text = "Here is your message!" };
+            message.Body = new TextPart("plain") { Text = "Here is your message!" };
 
-            using(var mailClient = new SmtpClient()){
+            using (var mailClient = new SmtpClient())
+            {
                 await mailClient.ConnectAsync(MAIL_HOST, MAIL_PORT, SecureSocketOptions.None);
                 await mailClient.SendAsync(message);
                 await mailClient.DisconnectAsync(true);

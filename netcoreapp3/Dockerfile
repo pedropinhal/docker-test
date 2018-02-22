@@ -13,7 +13,7 @@ RUN dotnet publish -o /publish
 FROM microsoft/aspnetcore:latest
 WORKDIR /publish
 COPY --from=build-env /publish .
-#ENV ASPNETCORE_URLS http://+:80
+#ENV ASPNETCORE_URLS http://+:5000
 ENTRYPOINT [ "dotnet", "netcoreapp3.dll" ]
 
 
